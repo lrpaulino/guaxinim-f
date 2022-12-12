@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang=pt-BR>
+
+<head>
+    <title>Chat do Guaxinim</title>
+
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
+
+    <meta name=author content="Paulino L. R.">
+    <meta name=description content=void>
+    <meta name=keywords content=void>
+    <meta name=rating content=general/>
+
+    <meta http-equiv=content-language content=pt-br>
+    <meta http-equiv=content-type content="text/html;charset=UTF-8">
+    <meta http-equiv=pragma content=no-store>
+
+    <meta name=robots content=noindex,follow>
+    <meta name=googlebot content=noindex,follow>
+
+    <link rel="shortcut icon" href=/static/images/favicon.ico type=image/x-icon>
+    <link href=/static/css/login.css rel=stylesheet type=text/css media=all>
+
+
+</head>
+
+<body>
+    <picture class=banner>
+        <source type=image/webp srcset=/static/images/banner.webp>
+        <img alt=banner src=/static/images/banner.png width=300px height=105px>
+    </picture>
+    <main class="auth-form card">
+        <form action=/login method=post>
+            <label for=username>Usuário</label>
+            <input autocapitalize=off autocomplete=off autocorrect=off id=username name=username required autofocus>
+            <br>
+            <label for=password>Senha<!-- <a href=/password_reset>Esqueceu a senha?</a> --></label>
+            <input autocapitalize=off autocomplete=off autocorrect=off id=password name=password required type=password>
+            <br>
+            <input type=submit value=Entrar>
+        </form>
+    </main>
+    
+    <div class=error-container>
+        <span>ERROR</span>
+    </div>
+    
+</body>
+
+</html>
