@@ -11,31 +11,29 @@
     <meta name=description content=void>
     <meta name=keywords content=void>
     <meta name=rating content=general/>
-
-    <meta http-equiv=content-language content=pt-br>
-    <meta http-equiv=content-type content="text/html;charset=UTF-8">
+    
     <meta http-equiv=pragma content=no-store>
-
+    
     <meta name=robots content=noindex,follow>
     <meta name=googlebot content=noindex,follow>
 
     <link rel="shortcut icon" href=/static/images/favicon.ico type=image/vnd.microsoft.icon>
     <link href=/static/css/index.css rel=stylesheet type=text/css media=all>
-    <script async type=text/javascript src=/static/js/index.js></script>
+    <script async src=/static/js/index.js></script>
 </head>
 
 <body>
     <picture class=banner>
         <source type=image/webp srcset=/static/images/banner.webp>
-        <img alt=banner src=/static/images/banner.png width=300px height=105px>
+        <img alt=banner src=/static/images/banner.png width=300 height=105>
     </picture>
     <main class="auth-form card">
         <form action=javascript:void(0) method=post>
             <label for=username>Usuário</label>
-            <input autocapitalize=off autocomplete=off autocorrect=off id=username name=username required autofocus>
+            <input autocapitalize=off autocomplete=off id=username name=username required autofocus>
             <br>
             <label for=password>Senha<a href=javascript:void(0)>Esqueceu a senha?</a></label>
-            <input autocapitalize=off autocomplete=off autocorrect=off id=password name=password required type=password>
+            <input placeholder="teste" autocapitalize=off autocomplete=off id=password name=password required type=password>
             <br>
             <input type=submit value=Entrar>
         </form>
